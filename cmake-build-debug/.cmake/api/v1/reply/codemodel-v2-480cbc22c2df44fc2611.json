@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UTAD_PA_BattleRoyale2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UTAD_PA_BattleRoyale2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UTAD_PA_BattleRoyale2-Debug-8ef62d51d704cc77374e.json",
+					"name" : "UTAD_PA_BattleRoyale2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACI\u00d3N AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug",
+		"source" : "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACI\u00d3N AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
