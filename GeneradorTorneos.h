@@ -6,7 +6,6 @@
 #include "Armas.h"
 #include <queue>
 #include<cstdlib>
-
 using namespace std;
 
 class GeneradorTorneos {
@@ -51,6 +50,10 @@ public:
 
         /******** Seteamos el arma del enemigo ***********************************/
         enemigo.armaEnemigo.setNameArma(repoTorneo.listaArmería[auxRandom]);
+
+        /*** NO ME VA SYSTEM(PAUSE) NI SIMILAR Y TODOS LOS OPONENTES "AL AZAR" ME SALEN IGUAL SI NO PAUSO ***/
+        cout<<"|| ||ESTÁN LLEGANDO LOS OPONENTES PULSA UNA TECLA PARA CONTINUAR||"<<endl;
+        cin.get();
         return enemigo;
     };
 

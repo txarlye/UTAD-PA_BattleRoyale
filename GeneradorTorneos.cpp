@@ -21,7 +21,7 @@ void GeneradorTorneos::lanzaCombate(int posicion, Jugador prota, std::queue<Enem
     cout<< " *********************************************** "<< endl;
     RepositorioDeNombres listasDeAcciones;
     int aux=posicion;
-    while (prota.getvida() >= 0 && colaEnemigos.front().getvida() >= 0) {
+    while (prota.getvida() > 0 && colaEnemigos.front().getvida() > 0) {
         int randomX = rand() % 9;
         string accion1 = listasDeAcciones.LlstaAcionesAntesDDisparo[randomX];
         string accion2 = listasDeAcciones.LlstaAcionesDisparo[randomX];
@@ -30,43 +30,59 @@ void GeneradorTorneos::lanzaCombate(int posicion, Jugador prota, std::queue<Enem
             int nuevaVidaProta = prota.getvida() -( (   colaEnemigos.front().getataque() * colaEnemigos.front().armaEnemigo.getDanioGenerado() * colaEnemigos.front().armaEnemigo.getDanioPorcentageDefensivo()  ) / (prota.getvida() * prota.getataque() *  8) );
             prota.setVida(nuevaVidaProta);
             cout << "Tras el ataque a " << prota.getName() << " tiene " << prota.getvida() << " de vida" << endl;
+            cout<<"|| Pulsa una tecla para  continuar ||"<<endl;
+            cin.get();
+            cout << " ****************************************************************************** " << endl;
             /***************Comprobamos si alguno ha muerto*************************************************************/
             if (prota.getvida() < 0) {
                 cout << "Has perdido !!, el ganador es el " << colaEnemigos.front().getName() << endl;
-                // Claro, no sé porqué no puedo salir aunque ponga cualquier forma de exit... desde mac nada
                 exit(EXIT_SUCCESS);
             }
         }else{                  //Ataca prota
             cout << prota.getName() + accion1 + colaEnemigos.front().armaEnemigo.getNameArma()+ accion2 +colaEnemigos.front().getName() << endl;
-            int aa =prota.getvida() * colaEnemigos.front().armaEnemigo.getDanioPorcentageDefensivo() * prota.armaJugador.getDanioPorcentageDefensivo();
-            int bb=prota.armaJugador.getDanioGenerado() * prota.getataque();
-            //int nuevaVidaEnemigo = colaEnemigos.front().getvida() - ((aa/bb)/8);
-            int nuevaVidaEnemigo = colaEnemigos.front().getvida() * prota.getArma().getDanioGenerado() / 100;
+            int nuevaVidaEnemigo = colaEnemigos.front().getvida() * prota.getArma().getDanioGenerado() / 10;
             colaEnemigos.front().setVida(nuevaVidaEnemigo);
             cout << "Tras el ataque a " << colaEnemigos.front().getName() << " tiene " << colaEnemigos.front().getvida() << " de vida" << endl;
-
+            cout<<"|| Pulsa una tecla para  continuar ||"<<endl;
+            cin.get();
+            cout << " ****************************************************************************** " << endl;
             /***************Comprobamos si alguno ha muerto *************************************************************/
-            if (colaEnemigos.front().getvida() < 0) {
-                cout << "Has ganado !!"<< endl;
+            if (colaEnemigos.front().getvida() <= 0) {
+                cout << "Has ganado el combate!!"<< endl;
+                colaEnemigos.pop();
+                if (colaEnemigos.size()<0 ){
+                    cout << "y además el torneo!!"<< endl;
+                    exit(EXIT_SUCCESS);
+                }
 
-                exit(EXIT_SUCCESS);
             }
         }
         aux++;
 
-
+    }
+    /***************Comprobamos si alguno ha muerto  ****************************************************/
+    if (prota.getvida() < 0) {
+        cout << "Has perdido !!, el ganador es el " << colaEnemigos.front().getName() << endl;
+        exit(EXIT_SUCCESS);
+    }
+    if (colaEnemigos.front().getvida() <= 0) {
+        cout << "Has ganado el combate!!"<< endl;
+        colaEnemigos.pop();
+        if (colaEnemigos.size()<0 ){
+            cout << "y además el torneo!!"<< endl;
+            exit(EXIT_SUCCESS);
+        }
 
     }
 
 }
 
 GeneradorTorneos::GeneradorTorneos(Jugador p, int mode) {
-    numAsaltos = 10;
+
     int numCombates;
     int contador = 0;
 
     switch (mode) {
-
         case 1: // El mode Super Hard crea 5 enenmigos con ataque al 100%
             numCombates = 5;
             for (int i = 0; i < 5; i++) {
@@ -77,11 +93,23 @@ GeneradorTorneos::GeneradorTorneos(Jugador p, int mode) {
                 adversariosTorneo.push(enemigoPartida);
             }
             break;
-        case 2:
-
+        case 2:// El mode easy crea 3 enenmigos
+            for (int i = 0; i < 3; i++) {
+                Enemigo enemigoPartida;
+                /***** Asignamos valores a enemigos:
+                 * parametrosOponente se encarga de setear vida y ataque en Enemigo y de su arma **/
+                enemigoPartida = parametrosOponente(mode, enemigoPartida);
+                adversariosTorneo.push(enemigoPartida);
+            }
             break;
-        case 3:
-
+        case 3: // super easy  son sólo 2  enemigos!!
+            for (int i = 0; i < 2; i++) {
+                Enemigo enemigoPartida;
+                /***** Asignamos valores a enemigos:
+                 * parametrosOponente se encarga de setear vida y ataque en Enemigo y de su arma **/
+                enemigoPartida = parametrosOponente(mode, enemigoPartida);
+                adversariosTorneo.push(enemigoPartida);
+            }
             break;
         default:
             cout << "Opción no válida generando torneo" << endl;
@@ -89,9 +117,10 @@ GeneradorTorneos::GeneradorTorneos(Jugador p, int mode) {
 
     /*+++++++++++++++++++ LANZAMOS LOS COMBAES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
     for (int i = 0; i < adversariosTorneo.size(); i++) {
+        cout << "NUESTRO PROXIMO ROUND!" << endl;
         imprimeDatosOponente(adversariosTorneo, i);
+        cout << "EMPIEZA YA !!" << endl;
         lanzaCombate(i, p, adversariosTorneo);
-
     }
 
 }
