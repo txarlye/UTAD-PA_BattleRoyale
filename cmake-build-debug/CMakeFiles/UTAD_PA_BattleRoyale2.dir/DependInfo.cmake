@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Armas.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o.d"
+  "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Enemigo.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o.d"
+  "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/GeneradorTorneos.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o.d"
   "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Jugador.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.o.d"
+  "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/RepositorioDeNombres.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o.d"
   "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Ui.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Ui.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Ui.cpp.o.d"
   "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/main.cpp" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/main.cpp.o" "gcc" "CMakeFiles/UTAD_PA_BattleRoyale2.dir/main.cpp.o.d"
   )

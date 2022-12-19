@@ -111,11 +111,71 @@ CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Jugador.cpp" -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.s
 
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/flags.make
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o: ../GeneradorTorneos.cpp
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o -MF CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o.d -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o -c "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/GeneradorTorneos.cpp"
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/GeneradorTorneos.cpp" > CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.i
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/GeneradorTorneos.cpp" -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.s
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/flags.make
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o: ../RepositorioDeNombres.cpp
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o -MF CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o.d -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o -c "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/RepositorioDeNombres.cpp"
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/RepositorioDeNombres.cpp" > CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.i
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/RepositorioDeNombres.cpp" -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.s
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/flags.make
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o: ../Enemigo.cpp
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o -MF CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o.d -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o -c "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Enemigo.cpp"
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Enemigo.cpp" > CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.i
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Enemigo.cpp" -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.s
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/flags.make
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o: ../Armas.cpp
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o: CMakeFiles/UTAD_PA_BattleRoyale2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o -MF CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o.d -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o -c "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Armas.cpp"
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Armas.cpp" > CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.i
+
+CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Armas.cpp" -o CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.s
+
 # Object files for target UTAD_PA_BattleRoyale2
 UTAD_PA_BattleRoyale2_OBJECTS = \
 "CMakeFiles/UTAD_PA_BattleRoyale2.dir/main.cpp.o" \
 "CMakeFiles/UTAD_PA_BattleRoyale2.dir/Ui.cpp.o" \
-"CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.o"
+"CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.o" \
+"CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o" \
+"CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o" \
+"CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o" \
+"CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o"
 
 # External object files for target UTAD_PA_BattleRoyale2
 UTAD_PA_BattleRoyale2_EXTERNAL_OBJECTS =
@@ -123,9 +183,13 @@ UTAD_PA_BattleRoyale2_EXTERNAL_OBJECTS =
 UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/main.cpp.o
 UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/Ui.cpp.o
 UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.o
+UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o
+UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o
+UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o
+UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o
 UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make
 UTAD_PA_BattleRoyale2: CMakeFiles/UTAD_PA_BattleRoyale2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable UTAD_PA_BattleRoyale2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable UTAD_PA_BattleRoyale2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UTAD_PA_BattleRoyale2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

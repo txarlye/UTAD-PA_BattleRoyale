@@ -129,6 +129,78 @@ UTAD_PA_BattleRoyale2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/build
 .PHONY : UTAD_PA_BattleRoyale2/fast
 
+Armas.o: Armas.cpp.o
+.PHONY : Armas.o
+
+# target to build an object file
+Armas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.o
+.PHONY : Armas.cpp.o
+
+Armas.i: Armas.cpp.i
+.PHONY : Armas.i
+
+# target to preprocess a source file
+Armas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.i
+.PHONY : Armas.cpp.i
+
+Armas.s: Armas.cpp.s
+.PHONY : Armas.s
+
+# target to generate assembly for a file
+Armas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Armas.cpp.s
+.PHONY : Armas.cpp.s
+
+Enemigo.o: Enemigo.cpp.o
+.PHONY : Enemigo.o
+
+# target to build an object file
+Enemigo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.o
+.PHONY : Enemigo.cpp.o
+
+Enemigo.i: Enemigo.cpp.i
+.PHONY : Enemigo.i
+
+# target to preprocess a source file
+Enemigo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.i
+.PHONY : Enemigo.cpp.i
+
+Enemigo.s: Enemigo.cpp.s
+.PHONY : Enemigo.s
+
+# target to generate assembly for a file
+Enemigo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Enemigo.cpp.s
+.PHONY : Enemigo.cpp.s
+
+GeneradorTorneos.o: GeneradorTorneos.cpp.o
+.PHONY : GeneradorTorneos.o
+
+# target to build an object file
+GeneradorTorneos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.o
+.PHONY : GeneradorTorneos.cpp.o
+
+GeneradorTorneos.i: GeneradorTorneos.cpp.i
+.PHONY : GeneradorTorneos.i
+
+# target to preprocess a source file
+GeneradorTorneos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.i
+.PHONY : GeneradorTorneos.cpp.i
+
+GeneradorTorneos.s: GeneradorTorneos.cpp.s
+.PHONY : GeneradorTorneos.s
+
+# target to generate assembly for a file
+GeneradorTorneos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/GeneradorTorneos.cpp.s
+.PHONY : GeneradorTorneos.cpp.s
+
 Jugador.o: Jugador.cpp.o
 .PHONY : Jugador.o
 
@@ -152,6 +224,30 @@ Jugador.s: Jugador.cpp.s
 Jugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/Jugador.cpp.s
 .PHONY : Jugador.cpp.s
+
+RepositorioDeNombres.o: RepositorioDeNombres.cpp.o
+.PHONY : RepositorioDeNombres.o
+
+# target to build an object file
+RepositorioDeNombres.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.o
+.PHONY : RepositorioDeNombres.cpp.o
+
+RepositorioDeNombres.i: RepositorioDeNombres.cpp.i
+.PHONY : RepositorioDeNombres.i
+
+# target to preprocess a source file
+RepositorioDeNombres.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.i
+.PHONY : RepositorioDeNombres.cpp.i
+
+RepositorioDeNombres.s: RepositorioDeNombres.cpp.s
+.PHONY : RepositorioDeNombres.s
+
+# target to generate assembly for a file
+RepositorioDeNombres.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UTAD_PA_BattleRoyale2.dir/build.make CMakeFiles/UTAD_PA_BattleRoyale2.dir/RepositorioDeNombres.cpp.s
+.PHONY : RepositorioDeNombres.cpp.s
 
 Ui.o: Ui.cpp.o
 .PHONY : Ui.o
@@ -210,9 +306,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... UTAD_PA_BattleRoyale2"
+	@echo "... Armas.o"
+	@echo "... Armas.i"
+	@echo "... Armas.s"
+	@echo "... Enemigo.o"
+	@echo "... Enemigo.i"
+	@echo "... Enemigo.s"
+	@echo "... GeneradorTorneos.o"
+	@echo "... GeneradorTorneos.i"
+	@echo "... GeneradorTorneos.s"
 	@echo "... Jugador.o"
 	@echo "... Jugador.i"
 	@echo "... Jugador.s"
+	@echo "... RepositorioDeNombres.o"
+	@echo "... RepositorioDeNombres.i"
+	@echo "... RepositorioDeNombres.s"
 	@echo "... Ui.o"
 	@echo "... Ui.i"
 	@echo "... Ui.s"

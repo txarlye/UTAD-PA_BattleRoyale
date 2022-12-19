@@ -80,10 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Armas.cpp">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Armas.h">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Enemigo.cpp">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Enemigo.h">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/GeneradorTorneos.cpp">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/GeneradorTorneos.h">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
 		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Jugador.cpp">
 			<Option target="UTAD_PA_BattleRoyale2"/>
 		</Unit>
 		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Jugador.h">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/RepositorioDeNombres.cpp">
+			<Option target="UTAD_PA_BattleRoyale2"/>
+		</Unit>
+		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/RepositorioDeNombres.h">
 			<Option target="UTAD_PA_BattleRoyale2"/>
 		</Unit>
 		<Unit filename="/Users/txarlye/Documents/SynologyDrive/00-UTAD/PROGRAMACIÓN AVANZADA/C++TrabajoFinal/UTAD-PA_BattleRoyale2/Ui.cpp">

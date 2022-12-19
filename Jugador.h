@@ -1,16 +1,18 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include "Armas.h"
+using namespace std;
 
 class Jugador {
 
     int vida;
 
 public:
-    std::string name;
+    string name;
     int ataque;
-    //Armas armaJugador;
-    Jugador(std::string name,int v, int a);
+    Armas armaJugador;
+    Jugador(string name,int v, int a);
     Jugador(int v, int a);
     Jugador();
 
@@ -20,29 +22,32 @@ public:
     int getataque(){
         return ataque;
     }
-    std::string getName(){
+    string getName(){
         return name;
     }
-    /*
-    Armas getArmaProta(){
+    Armas getArma(){
         return armaJugador;
     }
-     */
 
-    void setvida (int nuevavida){
+
+    void setVida (int nuevavida){
         vida = nuevavida;
     }
-    void setataque (int nuevoataque){
+    void setAtaque (int nuevoataque){
         ataque = nuevoataque;
     }
-    /*
-    void setArmaProta(int danio,int porcentage,std::string nombre){
-        Armas armaJugador=getArmaProta();
+
+    void setName(string newName){
+        name = newName;
+    }
+
+    void setArmaProta(int danio,int porcentage,string nombre){
+        Armas armaJugador;
         armaJugador.setdanioGenerado(danio);
         armaJugador.setPorcentageDefensivo(porcentage);
         armaJugador.setNameArma(nombre);
     }
-     */
+
 
 };
 
