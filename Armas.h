@@ -1,39 +1,25 @@
 #pragma once
-#include <iostream>
 #include <string>
-using namespace std;
 
 class Armas {
-    string nombreArma;
+private:
+    std::string nombreArma;
     float danioGenerado;
     float porcentageDefensivo;
 
 public:
-    //std::string name;
-    Armas(string nombreArma, int danioGenerado, int porcentageDefensivo);
-    Armas(int danioGenerado, int porcentageDefensivo);
+    // Constructores
+    Armas(const std::string& nombreArma, float danioGenerado, float porcentageDefensivo);
+    Armas(float danioGenerado, float porcentageDefensivo);
     Armas();
 
+    // Getters
+    std::string getNameArma() const;
+    float getDanioGenerado() const;
+    float getDanioPorcentageDefensivo() const;
 
-    string getNameArma(){
-        return nombreArma;
-    }
-    int getDanioGenerado(){
-        return danioGenerado;
-    }
-    int getDanioPorcentageDefensivo(){
-        return porcentageDefensivo;
-    }
-
-
-    void setdanioGenerado(int newDanioGenerado){
-        danioGenerado = newDanioGenerado;
-    }
-    void setPorcentageDefensivo(int newPorcentageDefensivo){
-        porcentageDefensivo = newPorcentageDefensivo;
-    }
-    void setNameArma(std::string newNameArma){
-        nombreArma = newNameArma;
-    }
-
+    // Setters
+    void setDanioGenerado(float newDanioGenerado);
+    void setPorcentageDefensivo(float newPorcentageDefensivo);
+    void setNameArma(const std::string& newNameArma);
 };

@@ -43,7 +43,7 @@ public:
 
     void setArmaProta(int danio,int porcentage,string nombre){
         Armas armaJugador;
-        armaJugador.setdanioGenerado(danio);
+        armaJugador.setDanioGenerado(danio);
         armaJugador.setPorcentageDefensivo(porcentage);
         armaJugador.setNameArma(nombre);
     }

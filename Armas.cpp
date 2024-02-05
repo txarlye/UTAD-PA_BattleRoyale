@@ -1,18 +1,39 @@
-
-
 #include "Armas.h"
-Armas::Armas(std::string n,int v, int a){
-    nombreArma = n;
-    danioGenerado       = v;
-    porcentageDefensivo = a;
+
+// Constructor con todos los parámetros
+Armas::Armas(const std::string& n, float v, float a)
+    : nombreArma(n), danioGenerado(v), porcentageDefensivo(a) {}
+
+// Constructor con danioGenerado y porcentageDefensivo, nombreArma se inicializa vacío
+Armas::Armas(float v, float a)
+    : nombreArma(""), danioGenerado(v), porcentageDefensivo(a) {}
+
+// Constructor por defecto
+Armas::Armas() : nombreArma(""), danioGenerado(0), porcentageDefensivo(0) {}
+
+// Getters
+std::string Armas::getNameArma() const {
+    return nombreArma;
 }
 
-Armas::Armas(int v, int a){
-    nombreArma ;
-    danioGenerado       = v;
-    porcentageDefensivo = a;
+float Armas::getDanioGenerado() const {
+    return danioGenerado;
 }
 
-Armas::Armas(){
-    nombreArma ;
-};
+float Armas::getDanioPorcentageDefensivo() const {
+    return porcentageDefensivo;
+}
+
+// Setters
+void Armas::setDanioGenerado(float newDanioGenerado) {
+    danioGenerado = newDanioGenerado;
+}
+
+void Armas::setPorcentageDefensivo(float newPorcentageDefensivo) {
+    porcentageDefensivo = newPorcentageDefensivo;
+}
+
+void Armas::setNameArma(const std::string& newNameArma) {
+    nombreArma = newNameArma;
+}
+

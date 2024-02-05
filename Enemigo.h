@@ -10,22 +10,14 @@ class Enemigo : public Jugador{
 
 
 
-public:
-    //int vida;
-    //int ataque;
+public: 
     Armas armaEnemigo;
-    Enemigo(int v, int a);
+    Enemigo(const std::string& nombre, int vida, int ataque); 
     Enemigo();
 
 
     void setAtaqueEnemigo (int nuevoAtaque){
         ataque = nuevoAtaque;
-    }
-    /*
-    void setNombreArmaEnemigo (std::string nuevoNombreArma){
-        this->armaEnemigo.setNameArma(nuevoNombreArma);
-    }
-    */
-
+    } 
 
 };
